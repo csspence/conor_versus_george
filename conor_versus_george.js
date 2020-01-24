@@ -14,6 +14,11 @@ If the winner is Conor McGregor he will most undoubtedly say:
 Good Luck!
 */
 
-var quote = function(fighter) {
-  // your code here
+const quote = (fighter) => {
+  if(fighter.toLowerCase() === 'george saint pierre') {
+    return 'I am not impressed by your performance.';
+  }
+  if(fighter.toLowerCase() === 'conor mcgregor') {
+    return 'I\'d like to take this chance to apologize.. To absolutely NOBODY!';
+  }
 };
